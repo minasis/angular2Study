@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { Swiper1Component } from './swiper1/swiper1.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Swiper1Component
   ],
   imports: [
     BrowserModule,
