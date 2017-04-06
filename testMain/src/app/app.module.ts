@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { Swiper1Component } from './swiper1/swiper1.component';
+import { MainVisualComponent } from './main-visual/main-visual.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Swiper1Component
+    Swiper1Component,
+    MainVisualComponent
   ],
   imports: [
     BrowserModule,
